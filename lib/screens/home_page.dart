@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
                 "Dark Mode",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Theme.of(context).colorScheme.tertiary,
+                  color: Theme.of(context).colorScheme.inversePrimary,
                 ),
               ),
               CupertinoSwitch(
